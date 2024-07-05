@@ -6,6 +6,7 @@
 
 body {
   font-family: "Roboto", sans-serif;
+  color: #363636;
 }
 
 /*******************NAVBAR********************/
@@ -55,10 +56,36 @@ nav {
 .hero {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  background-color: rgba(255, 228, 196, 0.37);
 }
 
 .hero img {
-  margin: 10px;
+  margin: 50px 5px;
   max-width: 90%;
-  width: 700px;
+  width: 650px;
+}
+
+.hero_text {
+  margin: 5rem;
+}
+
+.hero_text h1 {
+  font-size: 3.2rem;
+}
+
+.hero_text p {
+  margin-top: 3rem;
+  line-height: 2.2rem;
+  font-size: 1.3rem;
+}
+
+.hero_text button {
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-top: 3rem;
+  padding: 1rem 2rem;
+  color: #fff;
+  background-color: orange;
+  border: none;
+  border-radius: 0.5rem;
 }
