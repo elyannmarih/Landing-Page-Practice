@@ -209,6 +209,22 @@ article a:hover {
 
 /************** MEDIA QUERIES **************/
 
+@media (max-width: 900px) {
+  .hero {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .hero_img {
+    display: none;
+  }
+
+  .articles {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
 @media (max-width: 768px) {
   .menu-icon {
     display: block;
@@ -220,9 +236,9 @@ article a:hover {
     width: 100%;
     background-color: #363636;
     position: absolute;
-    top: 60px;
+    top: 70px;
     left: 0;
-    z-index: 1000;
+    padding-left: 10px;
   }
 
   .nav-bar.active {
@@ -244,7 +260,7 @@ article a:hover {
 
   .articles {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
   }
 }
 
