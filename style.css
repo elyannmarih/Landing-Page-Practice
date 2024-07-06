@@ -274,8 +274,8 @@ article a:hover {
 }
 
 @media (max-width: 500px) {
-  .articles {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
+  .logo img {
+    max-height: 40px;
+    margin: 10px;
   }
 }
