@@ -113,10 +113,6 @@ nav {
   background-color: #363636;
 }
 
-.users {
-  display: flex;
-}
-
 .users img {
   border: solid 0.15rem #fff;
   border-radius: 5rem;
@@ -245,7 +241,7 @@ article a:hover {
     width: 100%;
     background-color: #363636;
     position: absolute;
-    top: 80px;
+    top: 90px;
     left: 0;
     padding-left: 10px;
   }
@@ -277,5 +273,33 @@ article a:hover {
   .logo img {
     max-height: 40px;
     margin: 10px;
+  }
+}
+
+@media (max-width: 400px) {
+  .logo a {
+    font-size: 15px;
+  }
+
+  .hero_text h1 {
+    font-size: 40px;
+  }
+
+  .hero_text p {
+    font-size: 15px;
+  }
+
+  .users img {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+  }
+
+  .users .user-text {
+    margin-top: -50px;
+  }
+
+  .nav-bar {
+    top: 60px;
   }
 }
