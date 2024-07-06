@@ -16,23 +16,26 @@ nav {
   justify-content: space-between;
   align-items: center;
   background-color: #363636;
-  padding: 10px 30px;
+  padding: 0px 30px;
 }
 
 .logo {
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .logo a {
+  display: flex;
+  align-items: center; /* Vertically centers the text and image within the link */
   text-decoration: none;
   color: #fff;
   font-size: 25px;
+  font-weight: bold;
 }
 
 .logo img {
-  max-height: 50px;
-  margin-right: 10px;
+  max-height: 100px;
 }
 
 .menu-icon {
@@ -226,6 +229,10 @@ article a:hover {
 }
 
 @media (max-width: 768px) {
+  .logo {
+    margin-left: -45px;
+  }
+
   .menu-icon {
     display: block;
   }
@@ -236,7 +243,7 @@ article a:hover {
     width: 100%;
     background-color: #363636;
     position: absolute;
-    top: 70px;
+    top: 90px;
     left: 0;
     padding-left: 10px;
   }
