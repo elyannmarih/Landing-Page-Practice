@@ -280,36 +280,108 @@ article a:hover {
 
 .contact_section {
   background-color: rgba(255, 228, 196, 0.37);
+  padding: 3rem 12rem;
 }
 
 .contact {
   background-color: #fff;
   display: grid;
-  grid-template-columns: repeat(2, auto);
+  grid-template-columns: repeat(2, 1fr);
   align-items: center;
   justify-content: center;
   border: none;
-  border-radius: 0.5rem;
+  border-radius: 1rem;
   overflow: hidden;
-  width: 70%;
+
   height: auto;
   margin-left: auto;
   margin-right: auto;
+
+  box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.164);
 }
 
 .form {
   color: #363636;
-  margin: 30px;
+  padding: 3rem 6rem;
+
+  text-align: left;
+}
+
+.form h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+.form p {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.form input,
+.form textarea {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  width: 100%;
+
+  border-bottom: solid 1px gray;
+}
+
+.form button {
+  display: block;
+  font-size: 1rem;
+  background: rgb(9, 9, 121);
+  background: linear-gradient(
+    28deg,
+    rgba(9, 9, 121, 1) 7%,
+    rgba(119, 38, 171, 1) 100%
+  );
+  color: white;
+  width: 100%;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  margin-top: 20px;
+}
+
+.form button:hover {
+  transform: scale(1.1);
+  transition: ease 0.3s;
+  cursor: pointer;
 }
 
 .info_div {
   background-color: #363636;
   color: #fff;
-  border-top-left-radius: 0.5rem;
-  border-bottom-left-radius: 0.5rem;
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
   text-align: left;
+  margin-left: 10rem;
+  padding-top: 10px;
+  height: 70%;
 }
 
+.info_div i {
+  margin-right: 5px;
+}
+
+.info_div h3,
+.info_div .info {
+  font-size: 13px;
+  font-weight: lighter;
+  margin: 30px;
+}
+
+.socials_info {
+  float: right;
+  margin-right: 30px;
+}
+
+.socials_info i {
+  margin-right: 20px;
+  margin-top: 30px;
+}
 /************** MEDIA QUERIES **************/
 
 @media (max-width: 900px) {
