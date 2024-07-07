@@ -321,6 +321,12 @@ article a:hover {
   width: 100%;
   border-bottom: solid 1px gray;
   padding: 0.5rem;
+  resize: none;
+}
+
+textarea:focus,
+input:focus {
+  outline: none;
 }
 
 .form button {
@@ -358,7 +364,7 @@ article a:hover {
 .info_div h3,
 .info_div .info {
   text-align: left;
-  font-size: 0.8rem;
+  font-size: 1rem;
   margin: 10px 0;
 }
 
