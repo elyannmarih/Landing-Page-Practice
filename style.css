@@ -137,13 +137,13 @@ nav {
 }
 
 main {
-  background-color: #363636;
   color: #fff;
   text-align: center;
 }
 
-section {
-  padding-bottom: 3rem;
+.services {
+  background-color: #363636;
+  padding-bottom: 6rem;
 }
 
 .section_line {
@@ -168,11 +168,11 @@ section {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
-  margin: 5rem;
+  margin: 5rem 12rem 0 12rem;
   text-align: start;
 }
 
-article {
+.services article {
   background-color: #00000054;
   box-shadow: 0px 0px 3px 2px rgba(0, 0, 0, 0.449);
 }
@@ -210,6 +210,70 @@ article a {
 
 article a:hover {
   color: orange;
+}
+
+/************** TESTIMONIALS **************/
+.testimonial_section {
+  padding-bottom: 3rem;
+  background-color: rgba(255, 228, 196, 0.37);
+}
+
+.testimonial_title {
+  font-size: 20px;
+  padding-top: 4rem;
+  margin-bottom: 1rem;
+  color: #363636;
+  font-weight: bolder;
+}
+
+.testimonials {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+  margin: 5rem 12rem 3rem 12rem;
+}
+
+.testimonials article {
+  padding: 3rem;
+  background-color: #fff;
+  border: none;
+  border-radius: 0.5rem;
+}
+
+.testimonials img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  border-radius: 5rem;
+
+  width: 90px;
+  height: 90px;
+  object-fit: cover;
+}
+
+.stars {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 30px;
+}
+
+.stars i {
+  margin: 3px;
+  color: orange;
+}
+
+.testimonials article h3 {
+  color: #363636;
+  margin: 20px 0;
+}
+
+.testimonials article p {
+  color: #363636;
+  margin: 0;
 }
 
 /************** MEDIA QUERIES **************/
