@@ -280,37 +280,32 @@ article a:hover {
 
 .contact_section {
   background-color: rgba(255, 228, 196, 0.37);
-  padding: 3rem 12rem;
+  padding: 3rem 8rem;
 }
 
 .contact {
   background-color: #fff;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
   align-items: center;
   justify-content: center;
-  border: none;
   border-radius: 1rem;
   overflow: hidden;
-
-  height: auto;
-  margin-left: auto;
-  margin-right: auto;
-
   box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.164);
 }
 
 .form {
   color: #363636;
-  padding: 3rem 6rem;
-
+  padding: 3rem 5rem;
   text-align: left;
 }
 
 .form h1 {
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: bold;
 }
+
 .form p {
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -324,12 +319,11 @@ article a:hover {
   margin-top: 1rem;
   margin-bottom: 1rem;
   width: 100%;
-
   border-bottom: solid 1px gray;
+  padding: 0.5rem;
 }
 
 .form button {
-  display: block;
   font-size: 1rem;
   background: rgb(9, 9, 121);
   background: linear-gradient(
@@ -343,51 +337,46 @@ article a:hover {
   border-radius: 0.5rem;
   padding: 0.5rem;
   margin-top: 20px;
+  cursor: pointer;
 }
 
 .form button:hover {
   transform: scale(1.1);
   transition: ease 0.3s;
-  cursor: pointer;
 }
 
 .info_div {
   background-color: #363636;
   color: #fff;
+  text-align: left;
+  padding: 2rem;
   border-top-left-radius: 1rem;
   border-bottom-left-radius: 1rem;
-  text-align: left;
-  margin-left: 10rem;
-  padding-top: 10px;
-  height: 70%;
-}
-
-.info_div i {
-  margin-right: 5px;
+  line-height: 40px;
 }
 
 .info_div h3,
 .info_div .info {
-  font-size: 13px;
-  font-weight: lighter;
-  margin: 30px;
+  text-align: left;
+  font-size: 0.8rem;
+  margin: 10px 0;
 }
 
 .socials_info {
+  margin-top: 1rem;
   float: right;
-  margin-right: 30px;
 }
 
 .socials_info i {
-  margin-right: 20px;
-  margin-top: 30px;
+  margin: 0 10px;
 }
+
 /************** MEDIA QUERIES **************/
 
 @media (max-width: 900px) {
   .hero {
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: 1fr;
   }
 
   .hero_img {
@@ -430,7 +419,7 @@ article a:hover {
 
   .hero {
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: 1fr;
   }
 
   .hero_img {
@@ -439,7 +428,11 @@ article a:hover {
 
   .articles {
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: 1fr;
+  }
+
+  .contact {
+    grid-template-columns: 1fr;
   }
 }
 
