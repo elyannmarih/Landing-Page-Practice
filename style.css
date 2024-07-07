@@ -276,6 +276,40 @@ article a:hover {
   margin: 0;
 }
 
+/************** CONTACT **************/
+
+.contact_section {
+  background-color: rgba(255, 228, 196, 0.37);
+}
+
+.contact {
+  background-color: #fff;
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  width: 70%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.form {
+  color: #363636;
+  margin: 30px;
+}
+
+.info_div {
+  background-color: #363636;
+  color: #fff;
+  border-top-left-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+  text-align: left;
+}
+
 /************** MEDIA QUERIES **************/
 
 @media (max-width: 900px) {
