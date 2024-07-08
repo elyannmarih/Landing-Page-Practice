@@ -377,6 +377,71 @@ input:focus {
   margin: 0 10px;
 }
 
+/************** FOOTER **************/
+
+.footer {
+  background-color: #1f1f1f;
+  color: white;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  align-items: start;
+  justify-content: center;
+  gap: 10rem;
+  padding: 30px;
+}
+
+.footer h2 {
+  margin-bottom: 10px;
+}
+
+.hr-footer {
+  height: 2px;
+  width: 40%;
+  border-width: 0;
+  background-color: red;
+  margin-bottom: 20px;
+}
+
+.follow i {
+  margin-top: 30px;
+  background-color: #363636;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.follow .fa-brands:hover {
+  transition: ease 0.3s;
+  background-color: red;
+}
+
+.linkList {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.linkList a {
+  text-decoration: none;
+  color: #363636;
+  display: block;
+  padding: 5px 10px;
+}
+
+.linkList a:hover {
+  transition: ease 0.3s;
+  color: #fff;
+}
+
+.subscribe p {
+  color: #363636;
+}
+.final {
+  background-color: #363636;
+  text-align: center;
+  color: white;
+  padding: 20px;
+}
+
 /************** MEDIA QUERIES **************/
 
 @media (max-width: 900px) {
@@ -452,6 +517,9 @@ input:focus {
     margin: 10px;
   }
   .testimonials {
+    grid-template-columns: 1fr;
+  }
+  footer {
     grid-template-columns: 1fr;
   }
 }
