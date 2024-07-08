@@ -11,10 +11,13 @@ This project is a simple landing page developed following a CodingStella project
 ## Images
 
 <img src="https://github.com/elyannmarih/Landing-Page-Practice/assets/126211501/0c5479bf-831e-45b5-9dc8-94884207df6b" alt="Hero Section" width="500">
+<br>
 
 <img src="https://github.com/elyannmarih/Landing-Page-Practice/assets/126211501/a7b7c624-d8e0-4b6d-8d0b-98c4dbb45b48" alt="Services Section" width="500">
+<br>
 
 <img src="https://github.com/elyannmarih/Landing-Page-Practice/assets/126211501/397336fe-32d8-4325-8f2a-ab53b56d1050" alt="Testimonials Section" width="500">
+<br>
 
 <img src="https://github.com/elyannmarih/Landing-Page-Practice/assets/126211501/b189610e-02e7-4bc3-8500-04f17b58b5c6" alt="Contact and Footer Section" width="500">
 
