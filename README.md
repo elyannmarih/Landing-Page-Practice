@@ -1,5 +1,5 @@
 <h1>Landing Page Project</h1>
-This project is a simple landing page developed following a CodingStella project. The landing page features a modern and responsive design with sections for navigation, hero content, services, testimonials, and contact information.
+This project is a simple landing page. The landing page features a modern and responsive design with sections for navigation, hero content, services, testimonials, and contact information.
 
 ## Technologies Used
 
