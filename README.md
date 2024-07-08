@@ -2,8 +2,13 @@
 <p>This project is a simple landing page developed following a CodingStella project. The landing page features a modern and responsive design with sections for navigation, hero content, services, testimonials, and contact information.</p>
 
 <h1>Demo</h1>
-![image](https://github.com/elyannmarih/Landing-Page-Practice/assets/126211501/634c3cee-939f-423f-8203-eb93d92e6956)
+![hero-ss](https://github.com/elyannmarih/Landing-Page-Practice/assets/126211501/0c5479bf-831e-45b5-9dc8-94884207df6b)
 
+![services-ss](https://github.com/elyannmarih/Landing-Page-Practice/assets/126211501/a7b7c624-d8e0-4b6d-8d0b-98c4dbb45b48)
+
+![testimonial-ss](https://github.com/elyannmarih/Landing-Page-Practice/assets/126211501/397336fe-32d8-4325-8f2a-ab53b56d1050)
+
+![contact footer-ss](https://github.com/elyannmarih/Landing-Page-Practice/assets/126211501/097d2c3e-d467-4a35-807e-e63ac5fcca7b)
 
 <h1>Author</h1>
 Elyann Soto - www.linkedin.com/in/elyann-soto
