@@ -8,6 +8,10 @@ This project is a simple landing page. The landing page features a modern and re
 - JavaScript
 - Font Awesome for icons
 
+## Live Demo
+
+You can view the live demo of the project [here](https://elyannmarih.github.io/Landing-Page-Practice/).
+
 ## Images
 
 <img src="https://github.com/elyannmarih/Landing-Page-Practice/assets/126211501/0c5479bf-831e-45b5-9dc8-94884207df6b" alt="Hero Section" width="500">
