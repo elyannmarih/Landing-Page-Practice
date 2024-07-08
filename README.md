@@ -2,6 +2,7 @@
 <p>This project is a simple landing page developed following a CodingStella project. The landing page features a modern and responsive design with sections for navigation, hero content, services, testimonials, and contact information.</p>
 
 <h1>Demo</h1>
+
 ![hero-ss](https://github.com/elyannmarih/Landing-Page-Practice/assets/126211501/0c5479bf-831e-45b5-9dc8-94884207df6b)
 
 ![services-ss](https://github.com/elyannmarih/Landing-Page-Practice/assets/126211501/a7b7c624-d8e0-4b6d-8d0b-98c4dbb45b48)
